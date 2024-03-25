@@ -17,7 +17,7 @@ public class Exercise9 {
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Masukkan total hari: ");
+        System.out.print("Masukkan total hari:");
         int n = scanner.nextInt();
 
         System.out.println("Masukkan suhu:");
@@ -28,7 +28,7 @@ public class Exercise9 {
         }
         int[] waitdays = calcdays(temp);
 
-        System.out.printf("Output: ");
+        System.out.print("Output: ");
         for (int days : waitdays) {
             System.out.print(days + " ");
         }
